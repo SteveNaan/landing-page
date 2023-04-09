@@ -44,7 +44,7 @@ body {
 
 .intro-pic {
     height: 200px;
-    margin: 50px;
+    margin-right: 50px;
 }
 
 .intro {
@@ -112,4 +112,22 @@ button:active {
 .title {
     text-align: center;
     margin-top: 50px;
+}
+
+.words {
+    font-size: 18px;
+    padding: 0px 300px;
+}
+
+.cite {
+    padding: 0px 300px;
+    text-align: right;
+}
+
+.quote {
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;   
+    background-color: #e5e7eb;
+    padding: 50px
 }
