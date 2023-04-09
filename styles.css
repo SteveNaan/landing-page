@@ -171,3 +171,10 @@ button:active {
     font-size: 12px;
     font-weight: normal;
 }
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
