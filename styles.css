@@ -11,13 +11,15 @@
 .picture {
     width: 200px;
     height: auto;
-    border: 5px solid lightseagreen;
+    background-color: #214a39;
+    border: 5px solid black;
     border-radius: 10%;
 }
 
 .intro-pic {
-    border-radius: 50%;
-    border: 5px solid white;
+    border-radius: 10%;
+    background-color: #214a39;
+    border: 5px solid black;
 }
 
 ul, .links {
