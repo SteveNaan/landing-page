@@ -47,7 +47,6 @@ body {
     align-items: center;
     background-color: #1f2937;
     color: white;
-    padding-bottom: 50px;
 }
 
 .left-intro {
@@ -189,17 +188,23 @@ a {
     color: white;
 }
 
-.social-link {
+.socialLink {
     height: 50px;
     width: auto;
-    margin-top: 30px;
-    margin-right: 20px;
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .techLogo {
-    height: 30px;
+    height: 20px;
     width: auto;
     margin-bottom: 20px;
+}
+
+.techStack {
+    height: 30px;
+    width: auto;
 }
 
 .portfolio {
@@ -207,4 +212,14 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.techStack:hover, .picture:hover, .intro-pic:hover, .techLogo:hover {
+    transition: 0.5s ;
+    transform: scale(1.1); 
+}
+
+.socialLink:hover {
+    transition: 2s;
+    transform: rotateY(360deg);
 }
