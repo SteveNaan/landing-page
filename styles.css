@@ -128,11 +128,11 @@ a {
 
 .words {
     font-size: 18px;
-    padding: 0px 300px;
+    padding: 0px 15vw;
 }
 
 .cite {
-    padding: 0px 300px;
+    padding: 0px 15vw;
     text-align: right;
 }
 
@@ -145,7 +145,7 @@ a {
 }
 
 .call-to-action {
-    margin: 50px;
+    margin: 10vw;
     color: white;
     font-weight: bold;
     display: flex;
@@ -155,8 +155,9 @@ a {
 .box {
     display:flex;
     background-color: lightseagreen;
-    padding: 50px;
-    border-radius: 25px;
+    height: 50px;
+    border-radius: 5vw;
+    padding: 3vw;
 }
 
 .button-footer {
@@ -175,10 +176,11 @@ a {
 .container {
     display:flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .small-text {
-    margin-top: 10px;
     font-size: 12px;
     font-weight: normal;
     color: white;
