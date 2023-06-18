@@ -9,6 +9,7 @@
 }
 
 .picture {
+    transition: transform 0.2s ease-in-out;
     width: 200px;
     height: auto;
     background-color: #214a39;
@@ -17,9 +18,12 @@
 }
 
 .intro-pic {
+    transition: transform 0.2s ease-in-out;
     border-radius: 10%;
     background-color: #214a39;
     border: 5px solid black;
+    height: 200px;
+    margin-right: 50px;
 }
 
 .header {
@@ -34,11 +38,6 @@ body {
     display: flex;
     flex: 1;
     flex-direction: column;
-}
-
-.intro-pic {
-    height: 200px;
-    margin-right: 50px;
 }
 
 .intro {
@@ -75,6 +74,7 @@ body {
 }
 
 button:active {
+    transition: transform 0.3s ease-in-out;
     box-shadow: 0 0 2px darkslategray;
     transform: translateY(2px);
 }
@@ -189,7 +189,8 @@ a {
 }
 
 .socialLink {
-    height: 50px;
+    transition: transform 0.3s ease-in-out;
+    height: 40px;
     width: auto;
     margin-left: 0px;
     margin-top: 20px;
@@ -197,12 +198,14 @@ a {
 }
 
 .techLogo {
+    transition: transform 0.2s ease-in-out;
     height: 20px;
     width: auto;
     margin-bottom: 20px;
 }
 
 .techStack {
+    transition: transform 0.2s ease-in-out;
     height: 30px;
     width: auto;
 }
@@ -215,11 +218,12 @@ a {
 }
 
 .techStack:hover, .picture:hover, .intro-pic:hover, .techLogo:hover {
-    transition: 0.5s ;
+    transition: transform 0.2s ease-in-out;
     transform: scale(1.1); 
 }
-
-.socialLink:hover {
-    transition: 2s;
-    transform: rotateY(360deg);
-}
+  
+  .socialLink:hover {
+    transition: 0.3s;
+    transform: rotate(360deg) scale(1.3);
+  }
+  
