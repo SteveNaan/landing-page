@@ -8,9 +8,13 @@
     height: 75px;    
 }
 
+.bio {
+    font-size: calc(16px + .5vw)
+}
+
 .picture {
     transition: transform 0.2s ease-in-out;
-    width: 200px;
+    width: 15vw;
     height: auto;
     background-color: #214a39;
     border: 5px solid black;
@@ -22,8 +26,12 @@
     border-radius: 10%;
     background-color: #214a39;
     border: 5px solid black;
-    height: 200px;
+    height: 15vmax;
     margin-right: 50px;
+}
+
+h1 {
+    font-size: calc(16px + 1vw)
 }
 
 .header {
